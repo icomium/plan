@@ -1,0 +1,7 @@
+body { background: #f5f6f8; }
+main h1, main h2 { letter-spacing: .2px; }
+.table > :not(caption) > * > * { padding-top: .6rem; padding-bottom: .6rem; }
+section { scroll-margin-top: 1rem; }
+@media (max-width: 576px) {
+  .table { font-size: .9rem; }
+}

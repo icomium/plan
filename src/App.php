@@ -11,6 +11,7 @@ final class App
     {
         try {
             Env::load();
+			date_default_timezone_set(Env::get('APP_TZ', 'Europe/Samara'));
             self::startSession();
 
             $c = new StructureController();
